@@ -1,4 +1,4 @@
-{% set version = "2.3.2" %}
+{% set version = "3.0.0" %}
 
 package:
   name: opt-einsum
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/opt_einsum/opt_einsum-{{ version }}.tar.gz
-  sha256: d3d464b4da7ef09e444c30e4003a27def37f85ff10ff2671e5f7d7813adac35b
+  sha256: 1f4f29678267ce941be30bb5e5adaa591df1084cedde80e86e2e3f3cffa8778f
 
 build:
   number: 0
